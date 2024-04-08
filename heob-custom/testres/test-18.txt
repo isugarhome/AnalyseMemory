@@ -1,0 +1,9 @@
+allocer: main()
+
+leaks:
+  20 B (#3)
+    [malloc]
+  12 B (#2)
+    [malloc]
+  sum: 32 B / 2
+exit code: 10 (0xPTR)

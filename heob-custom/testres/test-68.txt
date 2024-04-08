@@ -1,0 +1,9 @@
+allocer: main()
+
+deallocation of invalid pointer 0xPTR
+  called on:
+    [free]
+  allocated (size 128) from:
+
+no leaks found
+exit code: 32 (0xPTR)

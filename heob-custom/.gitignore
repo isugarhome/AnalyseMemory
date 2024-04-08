@@ -1,0 +1,10 @@
+*.o
+*.exe
+*.dll
+*.swp
+*.a
+*.7z
+*.xz
+/*.user
+obj32
+obj64

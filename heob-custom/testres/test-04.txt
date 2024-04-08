@@ -1,0 +1,11 @@
+allocer: main()
+
+write access violation at 0xPTR
+  slack area of 0xPTR (size 16, offset +25)
+  allocated on: (#1)
+    [malloc]
+  freed on:
+    [realloc]
+
+no leaks found
+exit code: 2 (0xPTR)

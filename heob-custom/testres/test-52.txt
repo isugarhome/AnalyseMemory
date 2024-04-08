@@ -1,0 +1,8 @@
+allocer: main()
+
+multiplication overflow in allocation of NUM * 2 bytes
+  called on: (#2)
+    [calloc]
+
+no leaks found
+exit code: 12 (0xPTR)

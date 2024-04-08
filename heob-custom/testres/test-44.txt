@@ -1,0 +1,11 @@
+allocer: main()
+
+leaks:
+  64 B (#3)
+    [wcsdup]
+  48 B (#4)
+    [malloc]
+  32 B (#2)
+    [strdup]
+  sum: 144 B / 3
+exit code: 17 (0xPTR)

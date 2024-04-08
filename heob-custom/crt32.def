@@ -1,0 +1,24 @@
+
+LIBRARY msvcrt.dll
+
+EXPORTS
+; new
+_Znwj == ??2@YAPAXI@Z
+; delete
+_ZdlPv == ??3@YAXPAX@Z
+; new[]
+_Znaj == ??_U@YAPAXI@Z
+; delete[]
+_ZdaPv == ??_V@YAXPAX@Z
+; new(std::nothrow)
+_ZnwjRKSt9nothrow_t == ??2@YAPAXI@Z
+; delete(std::nothrow)
+_ZdlPvRKSt9nothrow_t == ??3@YAXPAX@Z
+; new[](std::nothrow);
+_ZnajRKSt9nothrow_t == ??_U@YAPAXI@Z
+; delete[](std::nothrow)
+_ZdaPvRKSt9nothrow_t == ??_V@YAXPAX@Z
+; delete(size_t)
+_ZdlPvj == ??3@YAXPAX@Z
+; delete[](size_t)
+_ZdaPvj == ??_V@YAXPAX@Z

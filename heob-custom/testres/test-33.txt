@@ -1,0 +1,5 @@
+allocer: main()
+
+leaks:
+  sum: 368 B / 11
+exit code: 15 (0xPTR)
